@@ -148,9 +148,3 @@ button {
         width: 290px;
     }
 }
-
-.body {
-    background: url("bg_stars.gif") no-repeat;
-    background-size: cover;
-    background-position: center;
-}
