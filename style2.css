@@ -1,5 +1,4 @@
 body {
-    background: url("bg_stars.gif");
-    background-size: cover;
-    background-position: center;
+  background: linear-gradient(to right, #003399, #3366cc);
+  font-family: Arial Black, Verdana, sans-serif;
 }
