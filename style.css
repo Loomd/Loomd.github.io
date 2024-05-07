@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  mini-height: 100vh;
+  min-height: 100vh;
   background: #000;
 }
 
@@ -32,9 +32,7 @@ h2 {
   text-align: center;
 }
 
-
 .input-box {
-  
   width: 310px;
   margin: 30px 0;
   border-bottom: 2px solid #fff;
@@ -53,7 +51,7 @@ h2 {
 .input-box input {
   width: 100%;
   height: 50px;
-  background: trnasparent;
+  background: transparent;
   border: none;
   outline: none;
   font-size: 1em;
