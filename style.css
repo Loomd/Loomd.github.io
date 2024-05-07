@@ -15,7 +15,7 @@ section {
   height: 100vh;
   background: url("unnamed.png") no-repeat;
   background-size: cover;
-  background-positon: center;
+  background-position: center;
 }
 
 .login-box {
@@ -126,5 +126,5 @@ button {
 }
 
 .register-link p a:hover {
-  text-dcoration: underline;
+  text-decoration: underline;
 }
