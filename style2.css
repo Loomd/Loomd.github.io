@@ -1,5 +1,5 @@
 .body {
-    background: url("bg_stars.gif") no-repeat;
+    background: url("bg_stars.gif");
     background-size: cover;
     background-position: center;
 }
