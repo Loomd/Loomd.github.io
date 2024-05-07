@@ -1,41 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
-    <title>Loomd</title>
-    <!-- <script src="popup.js" defer></script> -->
-    <script type="text/javascript">
-        function chastise_user() {
-            alert("You like breaking rules?");
-            document.getElementById("cmdButton").focus();
-        }
-    </script>
-    <script src="https://unpkg.com/webamp" defer></script>
-    <script src="webamp-setup.js" defer></script> <!-- js will execute in the browser on the client side -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
     
 <body>
-    <div id="app"></div> <!-- For the Webamp player -->
-    
-    <h1>Welcome!</h1>
-    <nav class="navbar">
-        <ul>
-            <li><a href="about.html">About me</li>
-            <li><a href="contact.html">Contact me</li>
-            <li><a href="music.html">Music</li>
-        </ul>
-    </nav>
-        
-    <!-- Practice practice practice -->
-    <form>
-        <label for="username">Enter your username:</label>
-        <input type="text" id="username" name="username">
-        <br>
-        <label for="password">Enter your password:</label>
-        <input type="password" id="password" name="password">
-        <h3>Please do not click the command button below!</h3>
-        <input type="button" value="Don't Click!" id="cmdButton" onclick="chastise_user()" />
-    </form>
+
+    <div class="login-box">
+        <form action ="">
+            <h2>Login</h2>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="email" required>
+                <label>Email</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password" required>
+                <label>Password</label>
+            </div>
+        </form>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     
 </body>
+    
 </html>
